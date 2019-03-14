@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/icons": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
     "firebase": "^5.8.5",
+    "materialize-css": "^1.0.0-rc.2",
+    "mongoose": "^5.4.17",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-router-dom": "^4.3.1",
