@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
 import firebase from 'firebase'
-import {BrowserRouter as Router, Route, Link, Redirect} from "react-router-dom";
+import {BrowserRouter as Router, Route, Redirect} from "react-router-dom";
 import Main from './routes/Main/main';
 import Register from './routes/Register/register';
 import Login from './routes/Login/login';
-import Dashboard from "./routes/Main/Dashboard/dashboard";
-import CreateClass from "./routes/Create_Class/create-class";
-import Classes from "./routes/Classes/classes";
-import MyClasses from "./routes/My_Classes/my-classes";
+import MyJoinClasses from './routes/My_Join_Classes/my-join-classes'
+
 
 var userID = localStorage.getItem('userID');
 var config = {
@@ -25,13 +23,12 @@ class App extends Component {
             <div className="App">
                 <Router>
                     <div>
-                        <Route path="/" exact component={Login}/>
-                        <Route path="/c" exact component={CreateClass}/>
-                        <Route path="/classes" exact component={Classes}/>
+                        <Route path="/" exact render={() => (userID ? <Redirect to='/main'/> : <Login/>)}/>
                         <Route path="/main"  component={Main}/>
-                        <Route path="/my" exact component={MyClasses}/>
-                        <Route path="/register" exact render={() => (userID ? <Redirect to='/main'/> : <Register/>)}/>
-                        <Route path="/login" exact render={() => (userID ? <Redirect to='/main'/> : <Login/>)}/>
+                        <Route path="/login"  component={Register}/>
+                        <Route path="/my-join-class"  component={MyJoinClasses}/>
+                        {/*<Route path="/register" exact render={() => (userID ? <Redirect to='/main'/> : <Register/>)}/>*/}
+                        {/*<Route path="/login" exact render={() => (userID ? <Redirect to='/main'/> : <Login/>)}/>*/}
                         {/*<Route path="/main" exact render={() => (!userID ? <Redirect to='/login'/> : <Main/>)}/>*/}
                     </div>
                 </Router>

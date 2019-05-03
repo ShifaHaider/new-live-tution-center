@@ -2,21 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801c4d3c-01b1-4cb8-a26d-db55e66624d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db/connection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/schema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/schema2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Classes/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Create_Class/create-class.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Main/dashboard/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Dashboard/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Start_Class/start-class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/View_Class/view-class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/action/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/constant/constant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducer/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/schema2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/schema2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Classes/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Classes/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Create_Class/create-class.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Create_Class/create-class.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Main/dashboard/dashboard.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Main/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/My_Classes/my-classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/My_Classes/my-classes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Register/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Register/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,19 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/index.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/Start_Class/start-class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -51,71 +50,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/Create_Class/create-class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!block;n#getCookie#0;n#CreateClass#0" />
-                <element signature="n#!!block;n#_changeValue#0;n#CreateClass#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/schema.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/db/schema2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/Main/Dashboard/dashboard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/Main/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <element signature="e#1#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/connection.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/Classes/classes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,8 +64,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/Register/register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="1292">
+              <caret line="84" column="118" selection-start-line="84" selection-start-column="105" selection-end-line="84" selection-end-column="118" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/View_Class/view-class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#!!block;n#getCookie#0;n#ViewClass#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Classes/classes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Login/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2652">
+              <caret line="167" column="50" selection-start-line="167" selection-start-column="50" selection-end-line="167" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#!!block;n#setCookie#0;n#Login#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/Create_Class/create-class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="120" column="63" selection-start-line="120" selection-start-column="63" selection-end-line="120" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#!!block;n#getCookie#0;n#CreateClass#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,11 +146,18 @@
     <findStrings>
       <find>changeValue</find>
       <find>valueChange</find>
+      <find>styled-components</find>
+      <find>react-script</find>
+      <find>this.state.rec</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>changeValue</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\project\Nodejs\live-tuition-center\node_modules\react-scripts</dir>
+      <dir>D:\project\Nodejs\live-tuition-center</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -161,25 +172,37 @@
         <option value="$PROJECT_DIR$/src/routes/My_Class/my-class.js" />
         <option value="$PROJECT_DIR$/src/db/connection.js" />
         <option value="$PROJECT_DIR$/src/db/create-class.js" />
-        <option value="$PROJECT_DIR$/src/routes/My_Classes/my-classes.js" />
         <option value="$PROJECT_DIR$/src/db/schema.js" />
+        <option value="$PROJECT_DIR$/src/store/action/action.js" />
+        <option value="$PROJECT_DIR$/src/store/constant/constant.js" />
+        <option value="$PROJECT_DIR$/src/store/reducer/reducer.js" />
+        <option value="$PROJECT_DIR$/src/store/reducer/index.js" />
+        <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/db/schema2.js" />
+        <option value="$PROJECT_DIR$/src/routes/My_Join_Classes/join-classes.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/node_modules/react-video-recorder/lib/video-recorder.js" />
+        <option value="$PROJECT_DIR$/src/routes/Start_Class/video.js" />
+        <option value="$PROJECT_DIR$/src/routes/Dashboard/dashboard.js" />
+        <option value="$PROJECT_DIR$/src/routes/Start_Class/start-class.js" />
+        <option value="$PROJECT_DIR$/src/db/index.js" />
         <option value="$PROJECT_DIR$/src/routes/Classes/classes.js" />
         <option value="$PROJECT_DIR$/src/routes/Main/main.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/routes/My_Classes/my-classes.js" />
+        <option value="$PROJECT_DIR$/src/routes/My_Join_Classes/my-join-classes.js" />
+        <option value="$PROJECT_DIR$/src/routes/View_Class/view-class.js" />
         <option value="$PROJECT_DIR$/src/routes/Login/login.js" />
         <option value="$PROJECT_DIR$/src/routes/Register/register.js" />
-        <option value="$PROJECT_DIR$/src/db/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/routes/Create_Class/create-class.js" />
-        <option value="$PROJECT_DIR$/src/db/schema2.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="230" />
-    <option name="width" value="1296" />
-    <option name="height" value="546" />
+    <option name="x" value="-7" />
+    <option name="width" value="1292" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,6 +241,13 @@
               <item name="live-tuition-center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-tuition-center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-tuition-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="Create_Class" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,6 +262,13 @@
               <item name="live-tuition-center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-tuition-center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-tuition-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="My_Classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,7 +276,28 @@
               <item name="live-tuition-center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Join_Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-tuition-center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-tuition-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="Register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-tuition-center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-tuition-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Start_Class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live-tuition-center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live-tuition-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="View_Class" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +308,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../html , css , javascript/2nd list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React/online-teaching" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="D:\project\Nodejs\live-tuition-center\node_modules\eslint" />
@@ -258,13 +316,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\Nodejs\live-tuition-center\src\routes" />
+      <recent name="D:\project\Nodejs\live-tuition-center\src\db" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\Nodejs\live-tuition-center\node_modules\@material-ui" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\Nodejs\live-tuition-center\src\db" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,17 +360,102 @@
       <workItem from="1552430833642" duration="1021000" />
       <workItem from="1552433315978" duration="1043000" />
       <workItem from="1552520205253" duration="1727000" />
+      <workItem from="1552522073542" duration="1484000" />
+      <workItem from="1552539156846" duration="716000" />
+      <workItem from="1552540963201" duration="785000" />
+      <workItem from="1552543060679" duration="1428000" />
+      <workItem from="1552571455354" duration="1711000" />
+      <workItem from="1552573272832" duration="1591000" />
+      <workItem from="1552579495556" duration="768000" />
+      <workItem from="1552587841671" duration="801000" />
+      <workItem from="1552594108001" duration="1777000" />
+      <workItem from="1552595928863" duration="1782000" />
+      <workItem from="1552597798435" duration="480000" />
+      <workItem from="1552957096074" duration="1294000" />
+      <workItem from="1552962035063" duration="1259000" />
+      <workItem from="1552964231074" duration="284000" />
+      <workItem from="1552974763294" duration="1324000" />
+      <workItem from="1553038228721" duration="682000" />
+      <workItem from="1553050791683" duration="718000" />
+      <workItem from="1553067818253" duration="1122000" />
+      <workItem from="1553105372909" duration="1724000" />
+      <workItem from="1553111798090" duration="1288000" />
+      <workItem from="1553115287181" duration="1823000" />
+      <workItem from="1553117151820" duration="805000" />
+      <workItem from="1553119293852" duration="918000" />
+      <workItem from="1553136531809" duration="22000" />
+      <workItem from="1553137237773" duration="1064000" />
+      <workItem from="1553138444896" duration="205000" />
+      <workItem from="1553631464695" duration="1963000" />
+      <workItem from="1553633517147" duration="1755000" />
+      <workItem from="1553635347274" duration="698000" />
+      <workItem from="1553639926863" duration="1809000" />
+      <workItem from="1553642368919" duration="292000" />
+      <workItem from="1553654160354" duration="1775000" />
+      <workItem from="1553656038164" duration="1317000" />
+      <workItem from="1553746353648" duration="803000" />
+      <workItem from="1553817379993" duration="1026000" />
+      <workItem from="1553836853034" duration="1755000" />
+      <workItem from="1553838842323" duration="509000" />
+      <workItem from="1553914590460" duration="786000" />
+      <workItem from="1553916312496" duration="586000" />
+      <workItem from="1553953171653" duration="2032000" />
+      <workItem from="1553955991741" duration="1752000" />
+      <workItem from="1553976789027" duration="1469000" />
+      <workItem from="1553978745153" duration="1788000" />
+      <workItem from="1553980587219" duration="1629000" />
+      <workItem from="1553982512584" duration="61000" />
+      <workItem from="1554519589606" duration="1252000" />
+      <workItem from="1554521399383" duration="739000" />
+      <workItem from="1554568584029" duration="1637000" />
+      <workItem from="1554573652407" duration="1707000" />
+      <workItem from="1554575685825" duration="674000" />
+      <workItem from="1554577468633" duration="585000" />
+      <workItem from="1554593287048" duration="596000" />
+      <workItem from="1554691168676" duration="1211000" />
+      <workItem from="1554693762161" duration="893000" />
+      <workItem from="1554732593354" duration="1423000" />
+      <workItem from="1554734977869" duration="810000" />
+      <workItem from="1554754524678" duration="2032000" />
+      <workItem from="1554757767517" duration="657000" />
+      <workItem from="1555443187044" duration="398000" />
+      <workItem from="1555612642457" duration="1517000" />
+      <workItem from="1555618316987" duration="8000" />
+      <workItem from="1555618448943" duration="868000" />
+      <workItem from="1555633004232" duration="1110000" />
+      <workItem from="1555634830633" duration="250000" />
+      <workItem from="1555643684150" duration="1028000" />
+      <workItem from="1555713149333" duration="1614000" />
+      <workItem from="1555714911664" duration="847000" />
+      <workItem from="1555737622734" duration="1723000" />
+      <workItem from="1555881677050" duration="1958000" />
+      <workItem from="1555884517611" duration="1636000" />
+      <workItem from="1555886386652" duration="1678000" />
+      <workItem from="1555892099866" duration="1610000" />
+      <workItem from="1555907431714" duration="1450000" />
+      <workItem from="1555950110844" duration="1533000" />
+      <workItem from="1555951898596" duration="1440000" />
+      <workItem from="1555957936507" duration="322000" />
+      <workItem from="1555987051907" duration="1832000" />
+      <workItem from="1555990438034" duration="1049000" />
+      <workItem from="1555992922766" duration="1775000" />
+      <workItem from="1555994818381" duration="1025000" />
+      <workItem from="1555999877399" duration="1680000" />
+      <workItem from="1556056916799" duration="1119000" />
+      <workItem from="1556084587434" duration="1454000" />
+      <workItem from="1556142366561" duration="537000" />
+      <workItem from="1556172337486" duration="1507000" />
+      <workItem from="1556308647402" duration="464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38765000" />
+    <option name="totallyTimeSpent" value="138073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20234375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -325,6 +470,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,94 +484,11 @@
     <entry file="file://$PROJECT_DIR$/src/routes/My-Class/my-class.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/My_Class/my-class.js" />
     <entry file="file://$PROJECT_DIR$/src/db/create-class.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/My_Classes/my-classes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/es/Tab/Tab.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/Login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Main/Dashboard/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Main/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="e#1#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Classes/classes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Register/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Create_Class/create-class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!block;n#getCookie#0;n#CreateClass#0" />
-            <element signature="n#!!block;n#_changeValue#0;n#CreateClass#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,10 +499,237 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/constant/constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/action/action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/My_Join_Classes/join-classes.js" />
     <entry file="file://$PROJECT_DIR$/src/db/schema2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="136">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-video-recorder/lib/video-recorder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-video-recorder/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/video-react/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Start_Class/video.js" />
+    <entry file="file://$PROJECT_DIR$/src/routes/Dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/My_Join_Classes/my-join-classes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#getCookie#0;n#MyJoinClasses#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/My_Classes/my-classes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#getCookie#0;n#MyClasses#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/TextField/TextField.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Start_Class/start-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Main/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Register/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="84" column="118" selection-start-line="84" selection-start-column="105" selection-end-line="84" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/View_Class/view-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#getCookie#0;n#ViewClass#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Classes/classes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="167" column="50" selection-start-line="167" selection-start-column="50" selection-end-line="167" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!block;n#setCookie#0;n#Login#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Create_Class/create-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="120" column="63" selection-start-line="120" selection-start-column="63" selection-end-line="120" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#getCookie#0;n#CreateClass#0" />
+          </folding>
         </state>
       </provider>
     </entry>

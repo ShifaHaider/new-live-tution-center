@@ -1,10 +1,13 @@
-
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import Dashboard from './Dashboard/dashboard'
+import Dashboard from '../Dashboard/dashboard'
 import Classes from "../Classes/classes";
 import CreateClass from "../Create_Class/create-class";
 import MyClasses from "../My_Classes/my-classes";
+import ViewClass from '../View_Class/view-class';
+import StartClass from '../Start_Class/start-class';
+import MyJoinClasses from '../My_Join_Classes/my-join-classes'
+
 
 class Main extends Component {
     render() {
@@ -12,11 +15,14 @@ class Main extends Component {
             <div>
                 <Router>
                     <div>
-                        <h1>kfdh</h1>
                         <Route path="/dashboard" exact component={Dashboard}/>
-                        <Route path="/create-class" exact component={CreateClass}/>
-                        <Route path="/classes" exact component={Classes}/>
-                        <Route path="/my-classes" exact component={MyClasses}/>
+                        <Route path="/main/create-class" exact component={CreateClass}/>
+                        <Route path="/main/classes" exact component={Classes}/>
+                        <Route path="/main/my-classes" exact component={MyClasses}/>
+                        <Route path="/main/view-class/:id" exact component={ViewClass}/>
+                        <Route path="/main/my-join-classes" exact component={MyJoinClasses}/>
+                        <Route path="/main/start-class/:id" exact component={StartClass}/>
+
                     </div>
                 </Router>
             </div>
@@ -24,4 +30,4 @@ class Main extends Component {
     }
 }
 
-export default Main;
+export default Main

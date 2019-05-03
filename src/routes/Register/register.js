@@ -1,6 +1,12 @@
 import React, {Component} from 'react';
 import firebase from 'firebase';
-
+import AppBar from '@material-ui/core/AppBar';
+import Typography from '@material-ui/core/Typography';
+import Toolbar from '@material-ui/core/Toolbar';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
 
 class Register extends Component {
 
@@ -28,7 +34,6 @@ class Register extends Component {
                     phone: this.state.phone,
                     _id: data.user.uid,
                 };
-                console.log(userData);
                 const url = 'http://localhost:9000/user-post';
                 fetch(url, {
                     method: "post",
@@ -38,9 +43,7 @@ class Register extends Component {
                         "Content-Type": "application/json"
                     }
                 }).then((data) => {
-                    console.log(data);
                     data.json().then((a) => {
-                        console.log(a);
                     });
                 })
                     .catch((err) => {
@@ -56,16 +59,36 @@ class Register extends Component {
     render() {
         return (
             <div className="App">
-                <input type="text" placeholder='Name' value={this.state.name}
-                       onChange={this.valueChange.bind(this, 'name')}/><br/>
-                <input type="text" placeholder='Email' value={this.state.email}
-                       onChange={this.valueChange.bind(this, 'email')}/><br/>
-                <input type="text" placeholder='Password' value={this.state.password}
-                       onChange={this.valueChange.bind(this, 'password')}/><br/>
-                <input type="text" placeholder='Phone' value={this.state.phone}
-                       onChange={this.valueChange.bind(this, 'phone')}/><br/>
-                <button onClick={this.createAccount.bind(this)}>Register</button>
+                <AppBar position="static">
+                    <Toolbar><Typography variant="title" color="inherit">Register</Typography></Toolbar>
+                </AppBar>
+                <Card style={{width: '416px', textAlign: 'center', height: '420px', margin: '80px 400px 0'}}>
+                    <CardContent>
+                        <Typography>
+                            <TextField id="outlined-name" label="Name" value={this.state.name} margin="normal"
+                                       variant="outlined" onChange={this.valueChange.bind(this, 'name')}/>
+                        </Typography>
+                        <Typography>
+                            <TextField id="outlined-name" label="Email" value={this.state.email} margin="normal"
+                                       variant="outlined" onChange={this.valueChange.bind(this, 'email')}
 
+                            />
+                        </Typography>
+                        <Typography>
+                            <TextField id="outlined-password-input" label="Password" type="password"
+                                       value={this.state.password} autoComplete="current-password"
+                                       margin="normal" variant="outlined" onChange={this.valueChange.bind(this, 'password')}/>
+                        </Typography>
+                        <Typography>
+
+                            <TextField id="outlined-number" label="Number"
+                                value={this.state.phone} onChange={this.valueChange.bind(this, 'phone')} type="number"
+                                InputLabelProps={{shrink: true,}} margin="normal" variant="outlined"/>
+                        </Typography>
+                    </CardContent>
+                    <Button variant="contained" color="primary" size='large'
+                            onClick={this.createAccount.bind(this)}>Register</Button><br/><br/>
+                </Card>
             </div>
         );
     }
